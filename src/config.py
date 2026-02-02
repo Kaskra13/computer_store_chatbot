@@ -1,7 +1,16 @@
 import os
+import logging
 from dotenv import load_dotenv
 
 load_dotenv(override=True)
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+
+logger = logging.getLogger(__name__)
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 MODEL = "gemini-2.5-flash"
@@ -34,12 +43,12 @@ Guidelines:
 """
 
 if GEMINI_API_KEY:
-    print("Gemini API key loaded successfully.")
+    logger.info("Gemini API key loaded successfully.")
 else:
-    print("Warning: Gemini API key is not set.")
+    logger.warning("Gemini API key is not set.")
 
 
 if DB_CONFIG["password"]:
-    print(f"Database config loaded. Host: {DB_CONFIG['host']}, DB Name: {DB_CONFIG['database']}")
+    logger.info(f"Database config loaded. Host: {DB_CONFIG['host']}, DB Name: {DB_CONFIG['database']}")
 else:
-    print("Warning: Database password is not set.")
+    logger.warning("Database password is not set.")

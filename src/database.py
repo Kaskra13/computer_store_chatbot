@@ -1,8 +1,11 @@
 import psycopg2
 import csv
 import os
+import logging
 from contextlib import contextmanager
 from src.config import DB_CONFIG
+
+logger = logging.getLogger(__name__)
 
 
 def ensure_database_exists():
@@ -25,12 +28,12 @@ def ensure_database_exists():
         
         if not exists:
             cursor.execute(f"CREATE DATABASE {DB_CONFIG['database']}")
-            print(f"Database '{DB_CONFIG['database']}' has been created!")
+            logger.info(f"Database '{DB_CONFIG['database']}' has been created!")
         
         cursor.close()
         conn.close()
     except psycopg2.Error as e:
-        print(f"Error creating database: {e}")
+        logger.error(f"Error creating database: {e}")
         raise
 
 
@@ -45,7 +48,7 @@ def get_connection():
         )
         return conn
     except psycopg2.Error as e:
-        print(f"Database connection error: {e}")
+        logger.error(f"Database connection error: {e}")
         raise
 
 
@@ -59,7 +62,7 @@ def get_cursor(commit=True):
             conn.commit()
     except Exception as e:
         conn.rollback()
-        print(f"Database error: {e}")
+        logger.error(f"Database error: {e}")
         raise
     finally:
         cursor.close()
@@ -94,14 +97,14 @@ def initialize_database():
         if count == 0:
             _load_products_from_csv(cursor)
         
-        print(f"Database initialized. {count} products in database")
+        logger.info(f"Database initialized. {count} products in database")
 
 
 def _load_products_from_csv(cursor):
     csv_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'products.csv')
     
     if not os.path.exists(csv_path):
-        print(f"Warning: CSV file not found at {csv_path}")
+        logger.warning(f"CSV file not found at {csv_path}")
         return
     
     with open(csv_path, 'r', encoding='utf-8') as f:
@@ -122,4 +125,4 @@ def _load_products_from_csv(cursor):
         VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
     ''', products)
     
-    print(f"Inserted {len(products)} products from CSV")
+    logger.info(f"Inserted {len(products)} products from CSV")

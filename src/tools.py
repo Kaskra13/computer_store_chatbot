@@ -1,7 +1,10 @@
+import logging
 from src.database import get_cursor
 
+logger = logging.getLogger(__name__)
+
 def search_products(query=None, max_price=None, min_rating=None, category=None):
-    print(f"SEARCH TOOL: query={query}, max_price={max_price}, min_rating={min_rating}, category={category}")
+    logger.info(f"SEARCH TOOL: query={query}, max_price={max_price}, min_rating={min_rating}, category={category}")
 
     with get_cursor(commit=False) as cursor:
         sql = "SELECT * FROM products WHERE stock_quantity > 0"
@@ -43,7 +46,7 @@ def search_products(query=None, max_price=None, min_rating=None, category=None):
         return f"Found {len(results)} product(s):\n" + "\n".join(products_info)
 
 def get_product_details(product_name):
-    print(f"DETAILS TOOL: product_name={product_name}", flush=True)
+    logger.info(f"DETAILS TOOL: product_name={product_name}")
 
     with get_cursor(commit=False) as cursor:
         cursor.execute("""
@@ -70,7 +73,7 @@ Category: {result[11]}
 """
     
 def check_stock(product_name):
-    print(f"STOCK TOOL: {product_name}", flush=True)
+    logger.info(f"STOCK TOOL: {product_name}")
 
     with get_cursor(commit=False) as cursor:
         cursor.execute("""
@@ -96,7 +99,7 @@ def check_stock(product_name):
 
 
 def get_budget_recommendations(budget, category=None):
-    print(f"BUDGET TOOL: budget=${budget}, category={category}", flush=True)
+    logger.info(f"BUDGET TOOL: budget=${budget}, category={category}")
 
     with get_cursor(commit=False) as cursor:
         sql = """
