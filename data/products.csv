@@ -1,0 +1,66 @@
+name,brand,processor,ram_gb,storage_gb,storage_type,gpu,price,stock_quantity,customer_rating,category
+Dell XPS 15,Dell,Intel Core i7-13700H,16,512,SSD,NVIDIA RTX 4050,1499.99,15,4.5,laptop
+MacBook Pro 14,Apple,Apple M3 Pro,18,512,SSD,Integrated,1999.99,8,4.8,laptop
+HP Pavilion Gaming,HP,AMD Ryzen 5 7600,16,512,SSD,NVIDIA RTX 4060,899.99,22,4.2,laptop
+Lenovo ThinkPad X1,Lenovo,Intel Core i5-1335U,16,256,SSD,Integrated,1299.99,12,4.6,laptop
+ASUS ROG Strix,ASUS,Intel Core i9-13900HX,32,1000,SSD,NVIDIA RTX 4080,2499.99,5,4.7,laptop
+Acer Aspire 5,Acer,Intel Core i5-1235U,8,512,SSD,Integrated,599.99,30,4.0,laptop
+MSI Prestige 14,MSI,Intel Core i7-1360P,16,512,SSD,NVIDIA RTX 4050,1399.99,10,4.4,laptop
+Custom Gaming PC Pro,Custom Build,AMD Ryzen 9 7950X,32,2000,SSD,NVIDIA RTX 4090,3499.99,3,4.9,desktop
+Dell Inspiron Desktop,Dell,Intel Core i5-13400,16,512,SSD,Integrated,749.99,18,4.1,desktop
+HP OMEN Desktop,HP,AMD Ryzen 7 7700X,32,1000,SSD,NVIDIA RTX 4070,1899.99,7,4.6,desktop
+Apple Mac Mini,Apple,Apple M2,8,256,SSD,Integrated,599.99,20,4.5,desktop
+Lenovo Legion Tower,Lenovo,Intel Core i7-13700K,32,1000,SSD,NVIDIA RTX 4070 Ti,2199.99,6,4.7,desktop
+Razer Blade 15,Razer,Intel Core i9-13950HX,32,1000,SSD,NVIDIA RTX 4070,2799.99,8,4.6,laptop
+Microsoft Surface Laptop,Microsoft,Intel Core i7-1255U,16,512,SSD,Integrated,1299.99,15,4.3,laptop
+ASUS TUF Gaming A15,ASUS,AMD Ryzen 7 7735HS,16,512,SSD,NVIDIA RTX 4060,1099.99,25,4.3,laptop
+Lenovo IdeaPad 3,Lenovo,AMD Ryzen 5 5500U,8,256,SSD,Integrated,449.99,35,3.8,laptop
+MSI Katana 15,MSI,Intel Core i7-13620H,16,1000,SSD,NVIDIA RTX 4070,1699.99,12,4.5,laptop
+Apple MacBook Air M2,Apple,Apple M2,16,512,SSD,Integrated,1449.99,18,4.9,laptop
+Dell G15 Gaming,Dell,Intel Core i7-13650HX,16,512,SSD,NVIDIA RTX 4060,1299.99,14,4.3,laptop
+HP Envy 13,HP,Intel Core i5-1240P,16,512,SSD,Integrated,899.99,20,4.2,laptop
+ASUS ZenBook 14,ASUS,AMD Ryzen 7 7730U,16,512,SSD,Integrated,999.99,17,4.4,laptop
+Acer Nitro 5,Acer,AMD Ryzen 5 7535HS,16,512,SSD,NVIDIA RTX 4050,899.99,28,4.1,laptop
+Gigabyte AERO 16,Gigabyte,Intel Core i9-13900H,32,1000,SSD,NVIDIA RTX 4070,2399.99,4,4.6,laptop
+LG Gram 17,LG,Intel Core i7-1360P,16,1000,SSD,Integrated,1599.99,9,4.5,laptop
+Samsung Galaxy Book3,Samsung,Intel Core i7-1355U,16,512,SSD,Integrated,1199.99,11,4.3,laptop
+Alienware x15 R2,Alienware,Intel Core i9-13900HK,32,2000,SSD,NVIDIA RTX 4080,3299.99,3,4.8,laptop
+Corsair Vengeance Gaming PC,Corsair,AMD Ryzen 7 7700X,32,1000,SSD,NVIDIA RTX 4070 Ti,2299.99,8,4.7,desktop
+NZXT Streaming PC,NZXT,Intel Core i7-13700K,32,1000,SSD,NVIDIA RTX 4070,2099.99,5,4.6,desktop
+MSI Aegis RS,MSI,Intel Core i9-13900KF,64,2000,SSD,NVIDIA RTX 4090,3999.99,2,4.9,desktop
+Apple Mac Studio,Apple,Apple M2 Ultra,64,1000,SSD,Integrated,3999.99,4,4.9,desktop
+Acer Predator Orion,Acer,Intel Core i7-13700F,32,1000,SSD,NVIDIA RTX 4080,2799.99,6,4.5,desktop
+ASUS ROG Strix Desktop,ASUS,AMD Ryzen 9 7950X3D,64,2000,SSD,NVIDIA RTX 4090,4299.99,2,4.8,desktop
+HP Pavilion Desktop,HP,Intel Core i3-13100,8,512,SSD,Integrated,549.99,25,3.9,desktop
+Dell XPS Desktop,Dell,Intel Core i7-13700,32,1000,SSD,NVIDIA RTX 4060 Ti,1699.99,10,4.5,desktop
+Lenovo IdeaCentre 5,Lenovo,AMD Ryzen 5 7600,16,512,SSD,Integrated,699.99,22,4.0,desktop
+Lenovo Yoga 9i,Lenovo,Intel Core i7-1360P,16,1000,SSD,Integrated,1549.99,13,4.5,laptop
+ASUS VivoBook 15,ASUS,AMD Ryzen 5 7530U,8,512,SSD,Integrated,549.99,32,4.0,laptop
+Dell Precision 5570,Dell,Intel Core i9-12900H,32,1000,SSD,NVIDIA RTX A2000,2899.99,6,4.7,laptop
+HP Spectre x360,HP,Intel Core i7-1355U,16,512,SSD,Integrated,1399.99,11,4.6,laptop
+MSI Creator Z16,MSI,Intel Core i7-12700H,32,1000,SSD,NVIDIA RTX 4060,1999.99,7,4.5,laptop
+Acer Swift 3,Acer,AMD Ryzen 7 7730U,16,512,SSD,Integrated,749.99,24,4.2,laptop
+Framework Laptop 13,Framework,Intel Core i7-1370P,32,1000,SSD,Integrated,1699.99,8,4.7,laptop
+Razer Blade 14,Razer,AMD Ryzen 9 7940HS,32,1000,SSD,NVIDIA RTX 4070,2499.99,5,4.8,laptop
+Samsung Galaxy Book3 Pro,Samsung,Intel Core i7-1360P,16,512,SSD,Integrated,1399.99,10,4.4,laptop
+ASUS ProArt Studiobook,ASUS,Intel Core i9-13980HX,64,2000,SSD,NVIDIA RTX 4080,3799.99,3,4.8,laptop
+Lenovo ThinkPad P1,Lenovo,Intel Core i9-13900H,32,1000,SSD,NVIDIA RTX 4000,2799.99,5,4.7,laptop
+Microsoft Surface Pro 9,Microsoft,Intel Core i7-1255U,16,256,SSD,Integrated,1299.99,16,4.4,laptop
+HP ZBook Studio,HP,Intel Core i7-13700H,32,1000,SSD,NVIDIA RTX 4070,2599.99,4,4.6,laptop
+Gigabyte G5,Gigabyte,Intel Core i5-12500H,16,512,SSD,NVIDIA RTX 4060,999.99,19,4.2,laptop
+LG Gram 15,LG,Intel Core i5-1340P,16,512,SSD,Integrated,1099.99,14,4.3,laptop
+Thermaltake Tower 900,Thermaltake,Intel Core i9-13900K,64,2000,SSD,NVIDIA RTX 4090,4199.99,2,4.9,desktop
+Alienware Aurora R15,Alienware,Intel Core i7-13700KF,32,2000,SSD,NVIDIA RTX 4080,2999.99,5,4.8,desktop
+ASUS Prime Desktop,ASUS,AMD Ryzen 5 7600,16,512,SSD,Integrated,649.99,20,4.1,desktop
+CyberPowerPC Gamer Master,CyberPowerPC,AMD Ryzen 7 7700,16,1000,SSD,NVIDIA RTX 4060 Ti,1499.99,12,4.4,desktop
+iBUYPOWER Gaming PC,iBUYPOWER,Intel Core i5-13600K,16,1000,SSD,NVIDIA RTX 4060,1299.99,15,4.3,desktop
+Skytech Gaming Desktop,Skytech,AMD Ryzen 7 5800X,16,1000,SSD,NVIDIA RTX 4070,1699.99,9,4.5,desktop
+HP EliteDesk 800,HP,Intel Core i7-13700,32,512,SSD,Integrated,1199.99,11,4.4,desktop
+Dell OptiPlex 7010,Dell,Intel Core i5-13500,16,512,SSD,Integrated,899.99,18,4.2,desktop
+Lenovo ThinkStation P360,Lenovo,Intel Core i9-13900,64,2000,SSD,NVIDIA RTX 4080,3299.99,4,4.8,desktop
+NZXT H1 V2 Build,NZXT,AMD Ryzen 5 7600X,32,1000,SSD,NVIDIA RTX 4060 Ti,1799.99,7,4.5,desktop
+MSI Trident X2,MSI,Intel Core i9-13900KF,64,2000,SSD,NVIDIA RTX 4090,3899.99,3,4.9,desktop
+Corsair One i300,Corsair,Intel Core i9-13900K,64,2000,SSD,NVIDIA RTX 4080,3599.99,4,4.8,desktop
+Acer Aspire TC,Acer,Intel Core i3-13100,8,512,SSD,Integrated,499.99,28,3.9,desktop
+Apple iMac 24,Apple,Apple M3,16,512,SSD,Integrated,1799.99,12,4.8,desktop
+ASUS TUF Gaming Desktop,ASUS,AMD Ryzen 7 7700X,32,1000,SSD,NVIDIA RTX 4070,1999.99,8,4.6,desktop
