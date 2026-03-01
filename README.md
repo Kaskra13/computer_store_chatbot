@@ -64,7 +64,7 @@ A conversational AI-powered chatbot that helps customers find the perfect comput
 ### Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/Kaskra13/computer_store_chatbot
+git clone https://github.com/Kaskra13/computer_store_chatbot computer-store-ai-assistant
 cd computer-store-ai-assistant
 ```
 
